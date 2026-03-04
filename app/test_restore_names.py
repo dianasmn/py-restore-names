@@ -52,4 +52,3 @@ def test_first_name_missing(
     """Тест, коли first_name відсутній — додається і заповнюється."""
     restore_names(user_template["missing_first"])
     assert user_template["missing_first"][0]["first_name"] == "Mike"
-
